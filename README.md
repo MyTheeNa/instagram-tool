@@ -12,7 +12,7 @@ This is a powerful Instagram tool developed by thee0x91. It provides functionali
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/instagram-tool.git
+    git clone https://github.com/MyTheeNa/instagram-tool.git
     cd instagram-tool
     ```
 
