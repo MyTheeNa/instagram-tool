@@ -2,11 +2,11 @@
 
 <div align="center">
 
-![Instagram Tool Banner](https://raw.githubusercontent.com/thee0x91/instagram-tool/main/.github/banner.png)
+![Instagram Tool Banner](https://raw.githubusercontent.com/MyTheeNa/instagram-tool/main/.github/banner.png)
 
 [![Python Version](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/thee0x91/instagram-tool?style=social)](https://github.com/thee0x91/instagram-tool/stargazers)
+[![Stars](https://img.shields.io/github/stars/MyTheeNa/instagram-tool?style=social)](https://github.com/MyTheeNa/instagram-tool/stargazers)
 
 *A powerful and elegant Instagram tool for story downloading and follower analysis*
 
@@ -35,7 +35,7 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/thee0x91/instagram-tool.git
+git clone https://github.com/MyTheeNa/instagram-tool.git
 cd instagram-tool
 ```
 
@@ -78,11 +78,11 @@ python app.py
 
 <div align="center">
 
-![Main Menu](https://raw.githubusercontent.com/thee0x91/instagram-tool/main/.github/menu.png)
+![Main Menu](https://raw.githubusercontent.com/MyTheeNa/instagram-tool/main/.github/menu.png)
 
 *Main Menu*
 
-![Story Loader](https://raw.githubusercontent.com/thee0x91/instagram-tool/main/.github/story.png)
+![Story Loader](https://raw.githubusercontent.com/MyTheeNa/instagram-tool/main/.github/story.png)
 
 *Story Loader in Action*
 
@@ -133,11 +133,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-thee0x91 - [@thee0x91](https://github.com/thee0x91)
+MyTheeNa - [@MyTheeNa](https://github.com/MyTheeNa)
 
-Project Link: [https://github.com/thee0x91/instagram-tool](https://github.com/thee0x91/instagram-tool)
+Project Link: [https://github.com/MyTheeNa/instagram-tool](https://github.com/MyTheeNa/instagram-tool)
 
 ---
 <div align="center">
-Made with ❤️ by thee0x91
+Made with ❤️ by MyTheeNa
 </div>
