@@ -1,63 +1,143 @@
-# Instagram Tool by thee0x91
+# 🚀 Instagram Tool
 
-This is a powerful Instagram tool developed by thee0x91. It provides functionalities for downloading Instagram stories, highlights, and posts, as well as checking if users you follow are following you back.
+<div align="center">
 
-## Features
+![Instagram Tool Banner](https://raw.githubusercontent.com/thee0x91/instagram-tool/main/.github/banner.png)
 
-- **Storyloader:** Download Instagram stories, highlights, and posts of any user.
-- **Check Following:** Check which users are not following you back.
+[![Python Version](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/thee0x91/instagram-tool?style=social)](https://github.com/thee0x91/instagram-tool/stargazers)
 
-## Installation
+*A powerful and elegant Instagram tool for story downloading and follower analysis*
+
+</div>
+
+## ✨ Features
+
+- 📥 **Story Loader**
+  - Download user stories
+  - Save highlights
+  - Archive posts
+  - Configurable download options
+
+- 👥 **Following Checker**
+  - Find users not following you back
+  - Export results to file
+  - Detailed analytics
+
+- 🎨 **Beautiful UI**
+  - Modern command-line interface
+  - Colorful animations
+  - Progress indicators
+  - User-friendly design
+
+## 🛠️ Installation
 
 1. Clone the repository:
+```bash
+git clone https://github.com/thee0x91/instagram-tool.git
+cd instagram-tool
+```
 
-    ```sh
-    git clone https://github.com/MyTheeNa/instagram-tool.git
-    cd instagram-tool
-    ```
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-2. Install the required dependencies:
+3. Configure your credentials:
+```bash
+# Edit config.json with your Instagram credentials
+{
+    "username": "your_instagram_username",
+    "password": "your_instagram_password"
+}
+```
 
-    ```sh
-    pip install -r requirements.txt
-    ```
+## 🚀 Usage
 
-3. Create a `config.json` file in the root directory with your Instagram credentials:
+Run the tool:
+```bash
+python app.py
+```
 
-    ```json
-    {
-      "USERNAME": "your_instagram_username",
-      "PASSWORD": "your_instagram_password"
-    }
-    ```
+### Story Loader
+- Select option [1] from the menu
+- Enter target username
+- Choose download options:
+  - Stories
+  - Highlights
+  - Posts
 
-## Usage
+### Following Checker
+- Select option [2] from the menu
+- Enter target username
+- Wait for analysis to complete
+- Results will be saved in `log/checkfollowing/`
 
-1. Run the tool:
+## 📸 Screenshots
 
-    ```sh
-    python instagram_tool.py
-    ```
+<div align="center">
 
-2. Select an option from the menu:
+![Main Menu](https://raw.githubusercontent.com/thee0x91/instagram-tool/main/.github/menu.png)
 
-    - `1. Storyloader`
-    - `2. Check Following`
+*Main Menu*
 
-3. Follow the on-screen prompts to enter the target username and select the desired actions.
+![Story Loader](https://raw.githubusercontent.com/thee0x91/instagram-tool/main/.github/story.png)
 
-## Logging
+*Story Loader in Action*
 
-The tool saves logs for each operation:
+</div>
 
-- **Storyloader Logs:** Saved in `log/Storyloader/` directory.
-- **Check Following Logs:** Saved in `log/checkfollowing/` directory.
+## ⚙️ Configuration
 
-## Example
+The tool uses `config.json` for credentials:
+```json
+{
+    "username": "your_instagram_username",
+    "password": "your_instagram_password"
+}
+```
 
-```sh
-Please select an option (1 or 2): 1
-Enter the target username: example_user
-Download posts? (y/n): y
-Download highlights? (y/n): y
-Download stories? (y/n): y
+## 🔒 Security
+
+- Credentials are stored locally
+- Session management for faster login
+- Secure error handling
+- Rate limiting protection
+
+## 📝 Requirements
+
+- Python 3.10+
+- Required packages:
+  - instaloader
+  - colorama
+  - raducord
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [Instaloader](https://instaloader.github.io/) for the core functionality
+- [Colorama](https://pypi.org/project/colorama/) for the beautiful colors
+- Community contributors and testers
+
+## 📞 Contact
+
+thee0x91 - [@thee0x91](https://github.com/thee0x91)
+
+Project Link: [https://github.com/thee0x91/instagram-tool](https://github.com/thee0x91/instagram-tool)
+
+---
+<div align="center">
+Made with ❤️ by thee0x91
+</div>

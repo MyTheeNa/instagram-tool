@@ -1,0 +1,3 @@
+instaloader>=4.9.5
+colorama>=0.4.6
+raducord>=1.0.0
