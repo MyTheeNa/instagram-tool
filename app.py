@@ -1,5 +1,5 @@
-from raducord import Console, Logger
-from colorama import Fore, Back, Style, init
+from raducord import Logger
+from colorama import Fore, Style, init
 import instaloader
 from concurrent.futures import ThreadPoolExecutor
 import json
@@ -7,12 +7,7 @@ import time
 import os
 import os.path
 import pickle
-from datetime import datetime
 import sys
-from time import sleep
-import random
-import threading
-from typing import List, Optional
 import shutil
 
 init(autoreset=True)
