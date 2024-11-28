@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![Instagram Tool Banner](https://raw.githubusercontent.com/MyTheeNa/instagram-tool/main/.github/banner.png)
-
 [![Python Version](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/MyTheeNa/instagram-tool?style=social)](https://github.com/MyTheeNa/instagram-tool/stargazers)
