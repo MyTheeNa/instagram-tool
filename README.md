@@ -12,6 +12,9 @@
 
 </div>
 
+## 🌟 Overview
+A powerful command-line tool for Instagram data retrieval and analysis. Download stories, highlights, posts, and analyze follower relationships with ease.
+
 ## ✨ Features
 
 - 📥 **Story Loader**
@@ -19,11 +22,13 @@
   - Save highlights
   - Archive posts
   - Configurable download options
+  - Batch processing support
 
 - 👥 **Following Checker**
   - Find users not following you back
   - Export results to file
   - Detailed analytics
+  - Automated reporting
 
 - 🎨 **Beautiful UI**
   - Modern command-line interface
@@ -31,66 +36,44 @@
   - Progress indicators
   - User-friendly design
 
-## 🛠️ Installation
+## 🛠️ Technical Details
 
-1. Clone the repository:
+### Core Components
+- Written in Python 3.10+
+- Powered by Instaloader
+- Terminal UI with Colorama
+- Advanced logging with Raducord
+- Parallel processing capabilities
+
+### Security Features
+- Secure credential storage
+- Session persistence
+- Rate limit handling
+- Error recovery system
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.10 or higher
+- Instagram account
+- Internet connection
+
+### Installation
 ```bash
+# Clone the repository
 git clone https://github.com/MyTheeNa/instagram-tool.git
 cd instagram-tool
-```
 
-2. Install dependencies:
-```bash
+# Install dependencies
 pip install -r requirements.txt
+
+# Configure credentials
+cp config.example.json config.json
+# Edit config.json with your credentials
 ```
 
-3. Configure your credentials:
-```bash
-# Edit config.json with your Instagram credentials
-{
-    "username": "your_instagram_username",
-    "password": "your_instagram_password"
-}
-```
-
-## 🚀 Usage
-
-Run the tool:
-```bash
-python app.py
-```
-
-### Story Loader
-- Select option [1] from the menu
-- Enter target username
-- Choose download options:
-  - Stories
-  - Highlights
-  - Posts
-
-### Following Checker
-- Select option [2] from the menu
-- Enter target username
-- Wait for analysis to complete
-- Results will be saved in `log/checkfollowing/`
-
-## 📸 Screenshots
-
-<div align="center">
-
-![Main Menu](https://raw.githubusercontent.com/MyTheeNa/instagram-tool/main/.github/menu.png)
-
-*Main Menu*
-
-![Story Loader](https://raw.githubusercontent.com/MyTheeNa/instagram-tool/main/.github/story.png)
-
-*Story Loader in Action*
-
-</div>
-
-## ⚙️ Configuration
-
-The tool uses `config.json` for credentials:
+### Configuration
+Edit `config.json`:
 ```json
 {
     "username": "your_instagram_username",
@@ -98,44 +81,90 @@ The tool uses `config.json` for credentials:
 }
 ```
 
-## 🔒 Security
+## 💻 Usage
 
-- Credentials are stored locally
-- Session management for faster login
-- Secure error handling
-- Rate limiting protection
+### Basic Commands
+```bash
+# Start the tool
+python app.py
 
-## 📝 Requirements
+# Download stories
+Select option [1] from the menu
 
-- Python 3.10+
-- Required packages:
-  - instaloader
-  - colorama
-  - raducord
+# Check followers
+Select option [2] from the menu
+```
+
+## ⚙️ Advanced Features
+
+### Story Download Options
+- Select specific users
+- Choose date ranges
+- Filter by content type
+- Custom save locations
+
+### Following Analysis Features
+- Export to CSV
+- Detailed statistics
+- Custom filters
+- Batch processing
+
+## 🔧 Troubleshooting
+
+### Common Issues
+1. Authentication errors
+   - Verify credentials
+   - Check network connection
+   - Clear session cache
+
+2. Rate limiting
+   - Use delay settings
+   - Implement batch processing
+   - Follow Instagram limits
+
+## 📋 Best Practices
+
+### Usage Guidelines
+- Respect Instagram's terms of service
+- Use reasonable download intervals
+- Monitor rate limits
+- Keep credentials secure
+
+### Performance Tips
+- Use batch processing for large downloads
+- Enable caching when appropriate
+- Monitor system resources
 
 ## 🤝 Contributing
+Contributions are welcome! Please feel free to submit pull requests.
 
+### Development Setup
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
+2. Create feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+5. Create pull request
 
 ## 📄 License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- [Instaloader](https://instaloader.github.io/) for the core functionality
-- [Colorama](https://pypi.org/project/colorama/) for the beautiful colors
-- Community contributors and testers
-
-## 📞 Contact
-
+## ✉️ Contact
 MyTheeNa - [@MyTheeNa](https://github.com/MyTheeNa)
 
 Project Link: [https://github.com/MyTheeNa/instagram-tool](https://github.com/MyTheeNa/instagram-tool)
+
+## 🔐 Security
+- Never share your credentials
+- Use secure connection
+- Keep software updated
+- Report security issues
+
+## 🔄 Updates
+Check repository regularly for:
+- Security updates
+- New features
+- Bug fixes
+- Performance improvements
 
 ---
 <div align="center">
